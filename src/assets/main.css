@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  --text-blue-color: #1877f2;
+  --text-black-color: #0e192b;
+  --text-while-color: #fff;
+  --bg-ddd-color: #f0f2f5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+  background: #f0f2f5;
+}
+
+/* body {
+  background-image: url("https://vuongquocdongu.com/wp-content/uploads/2022/03/Fantasy-Girl-4K.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+} */
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+i {
+  cursor: pointer;
+}
+
+.color-blue {
+  color: var(--text-blue-color);
+}
+
+.color-black {
+  color: var(--text-black-color);
+}
+
+.color-while {
+  color: var(--text-while-color);
+}
+
+.bg-ddd {
+  background: var(--bg-ddd-color);
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.box-shadow-2 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.boder-ru {
+  border-radius: 1rem;
+}
+
+.hover:hover {
+  transition: all 0.2s ease;
+  background: var(--bg-ddd-color);
+  border-radius: 0.5rem;
+}
+
+/* Config modal */
+.p-dialog-header {
+  border-bottom: 2px solid var(--bg-ddd-color) !important;
+}
+
+.p-dialog-content {
+  padding: 1.5rem !important;
+  padding-bottom: 0.2rem !important;
+}
+
+.p-dialog-header-icons {
+  width: 10%;
+  justify-content: flex-end;
+}
+
+.p-dialog-header-icon {
+  padding: 1.7rem;
+}
+
+.pi {
+  font-size: 1.7rem;
+}
+
+.p-dialog-header-icon {
+  background: #ddd !important;
+}
+
+.p-dialog-header-icon:enabled:hover {
+  padding: 1.7rem;
+  background: rgb(207, 207, 207) !important;
+}
+
+.p-message-text {
+  font-size: 1.5rem !important;
+}
